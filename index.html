@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="icon" type="image/x-icon" href="/Images/padlock.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <div class="container">
+      <h1 class="heading" id="text-p1" >Generate a 
+        <br>
+        <span class="heading" id="text-p2">random password</span> </h1>
+      <h2 class="heading" id="sub-heading">Never use an insecure password again.</h2>
+      
+      <!-- <form> -->
+        <label id="passwordLength"> Password length
+          <input id="input-Length" name="passwordLength" type="number" min="6" max="15" required>
+        </label>
+        <p id="passwordCond">(Select a number between 6 and 15)</p>
+        <!-- <input type="submit" id="setPassword" onclick=""> -->
+      <!-- </form> -->
+      
+      <button class="btn" id="generatePassword" onclick="generatePassword()">Generate passwords</button>
+      
+      <hr id="lineBreak">
+      
+      <div class="flexbox">
+        <input type="text" class="textbox" id="password1" max="15"></input>
+        <input type="text" class="textbox" id="password2" max="15"></input>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
