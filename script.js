@@ -14,7 +14,7 @@ function generatePassword() {
   // }
 
   let passwordLenEl = document.getElementById("input-Length");
-  console.log(passwordLenEl.value);
+  // console.log(passwordLenEl.value);
   // console.log(typeof(passwordLenEl.value));
 
   let firstPassword = document.getElementById("password1");
