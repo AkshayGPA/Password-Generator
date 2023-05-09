@@ -102,7 +102,7 @@ input[type=number] {
 }
 
 .textbox {
-  /* min-height: 25px; */
+  height: 40px;
   width: 210px;
   border: none;
   margin-right: 24px;
