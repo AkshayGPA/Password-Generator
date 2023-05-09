@@ -15,21 +15,18 @@
         <span class="heading" id="text-p2">random password</span> </h1>
       <h2 class="heading" id="sub-heading">Never use an insecure password again.</h2>
       
-      <!-- <form> -->
-        <label id="passwordLength"> Password length
-          <input id="input-Length" name="passwordLength" type="number" min="6" max="15" required>
-        </label>
-        <p id="passwordCond">(Select a number between 6 and 15)</p>
-        <!-- <input type="submit" id="setPassword" onclick=""> -->
-      <!-- </form> -->
+      <label id="passwordLength"> Password length
+        <input id="input-Length" name="passwordLength" type="number" min="6" max="15" required>
+      </label>
+      <p id="passwordCond">(Select a number between 6 and 15)</p>
       
       <button class="btn" id="generatePassword" onclick="generatePassword()">Generate passwords</button>
       
       <hr id="lineBreak">
       
       <div class="flexbox">
-        <input type="text" class="textbox" id="password1" max="15"></input>
-        <input type="text" class="textbox" id="password2" max="15"></input>
+        <p class="textbox" id="password1"></p>
+        <p class="textbox" id="password2"></p>
       </div>
     </div>
 

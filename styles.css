@@ -40,6 +40,20 @@ body {
   color: #6B7280;
 }
 
+/* Removing the pointers within the input field */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 #passwordLength {
   margin-left: 50px;
   font-size: 16px;
@@ -47,7 +61,6 @@ body {
 }
 
 #input-Length {
-  /* display: block; */
   margin-top: 40px;
   margin-left: 20px;
   border: none;
@@ -55,18 +68,9 @@ body {
   width: 50px;
   height: 20px;
   padding: 5px 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
 }
-
-/* #setPassword {
-  display: block;
-  margin-left: 50px;
-  margin-top: 10px;
-  background-color: bisque;
-  padding: 4px 8px;
-  border: 2px solid rgb(138, 25, 25);
-  border-radius: 5px;
-  box-shadow: 2px 2px red;
-} */
 
 #passwordCond {
   margin-left: 50px;
@@ -98,15 +102,17 @@ body {
 }
 
 .textbox {
-  height: 35px;
+  /* min-height: 25px; */
   width: 210px;
   border: none;
   margin-right: 24px;
   background-color: #273549;
   color: #10b981;
   border-radius: 5px;
-  padding: 5px;
+  line-height: 40px;
+  padding: 2px;
   text-align: center;
   font-size: 16px;
   letter-spacing: 2px;
+  font-family: 'Inter', sans-serif;
 }
